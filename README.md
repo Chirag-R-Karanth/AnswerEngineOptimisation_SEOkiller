@@ -1,4 +1,4 @@
-# Modern Full-Stack Signup Application
+# Modern Full-Stack Signup & Login Application
 
 This project is a modern, efficient web application featuring a light-themed, pleasant user interface. It is built with a React frontend and a FastAPI (Python) backend.
 
@@ -13,7 +13,7 @@ This project is a modern, efficient web application featuring a light-themed, pl
 - **React**: Modern UI library for efficient rendering.
 - **Vite**: Ultra-fast build tool and development server.
 - **Tailwind CSS v4**: Utility-first CSS framework for a "light and pleasant" design.
-- **React Router**: For client-side navigation.
+- **React Router**: For client-side navigation and redirection.
 - **Axios**: For making API requests to the backend.
 
 ### Backend
@@ -24,8 +24,8 @@ This project is a modern, efficient web application featuring a light-themed, pl
 ## Getting Started
 
 ### Prerequisites
-- Node.js (v18 or higher)
-- Python (v3.9 or higher)
+- Node.js (v22 or higher)
+- Python (v3.12 or higher)
 
 ### Installation
 
@@ -58,7 +58,8 @@ This project is a modern, efficient web application featuring a light-themed, pl
 
 ## Features
 
-- **Clean UI**: A light-colored, modern, and pleasant design.
-- **Signup Page**: A fully functional signup flow integrated with the backend.
+- **Clean & Light UI**: A pleasant, modern design using Tailwind CSS v4.
+- **Signup & Login**: Fully functional authentication flow with automatic redirection to the main page upon success.
 - **Fast Performance**: Built with high-performance frameworks on both ends.
-- **Responsive Design**: Works across different screen sizes thanks to Tailwind CSS.
+- **Responsive Design**: Works across different screen sizes.
+- **Verified Flow**: End-to-end flows verified with Playwright.
